@@ -29,6 +29,11 @@ li {
   background-image: url(./images/6.jpg);
 }
 
+.bg-tt {
+  background-size: 50%;
+  background-image: url(./images/7.jpg);
+}
+
 .bg-p {
   border-top: 1px solid #fffbfb;
   border-bottom: 1px solid #fffbfb;
@@ -36,19 +41,11 @@ li {
 
 .btn {
   color: #d3d3d3;
-  font-size: 0.8rem;
-  outline: none;
-  border: none;
+  font-size: 1rem;
   font-weight: 700;
-  cursor: pointer;
-}
-
-.btn-large {
-  background: #cc2f1d;
-  padding: 1.5rem;
-  display: inline-block;
-  margin: 0 auto;
-  border-radius: 1rem;
+  margin-top: 1rem;
+  text-decoration: underline;
+   
 }
 
 .header {
@@ -321,6 +318,7 @@ li {
 
 .speakers-list-item::before {
   content: " ";
+  background-image: url(./images/transparent.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 50px;
@@ -386,13 +384,16 @@ li {
 .partners-list {
   padding: 2rem 0;
   display: flex;
+  width: 90%;
+  gap: 15px;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-.partner-list-item i {
-  font-size: 3rem;
-  color: #d3d3d3;
+.partners-list img {
+  width: 30%;
 }
 
 .footer {
@@ -408,10 +409,28 @@ li {
   margin-right: 5rem;
 }
 
+.logoo a {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.logoo h2 {
+  padding-top: 1.8rem;
+}
+
 .rights {
   font-weight: 700;
   font-size: 1.2rem;
   color: #17181d;
+  padding-top: 1.5rem;
+  padding-left: 1rem;
+}
+
+.rightss {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #ffffff;
   padding-top: 1.5rem;
   padding-left: 1rem;
 }
@@ -654,7 +673,11 @@ li {
   }
 
   .partners-list {
-    justify-content: space-around;
+    justify-content: center;
+  }
+
+  .partners-list img {
+    width: 16%;
   }
 
   .hero-about-content-contact {
