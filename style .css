@@ -538,4 +538,222 @@
       line-height: 1.8;
     }
   }
+
+  @media screen and (min-width: 768px) {
+    .header .logo {
+      display: block;
+      visibility: visible;
+    }
+  
+    .icon {
+      display: none;
+      visibility: hidden;
+    }
+  
+    .nav {
+      display: flex;
+      align-items: center;
+      padding: 1.2rem 5rem;
+      height: 6rem;
+    }
+  
+    .top-nav {
+      display: flex;
+      background-color: #272a31;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 2rem;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 0.5rem 5rem;
+      visibility: visible;
+    }
+  
+    .top-nav__item {
+      margin-right: 1rem;
+    }
+  
+    .top-nav__link {
+      color: #d3d3d3;
+      font-size: 0.8rem;
+      font-weight: 700;
+      margin: 0 5px;
+    }
+  
+    .nav-list {
+      position: relative;
+      visibility: visible;
+      height: initial;
+      z-index: 0;
+      transform: translateX(0);
+      display: flex;
+      justify-content: flex-end;
+      width: 100%;
+      background: none;
+      padding: 0;
+      transition: none;
+    }
+  
+    .nav-item {
+      margin: 0 1rem 0 0;
+      padding-top: 1rem;
+    }
+  
+    .nav-link {
+      font-size: 1rem;
+      color: #272a31;
+      font-weight: 700;
+    }
+  
+    .nav-link:hover {
+      color: #ec5342;
+    }
+  
+    .nav-link:active {
+      text-decoration: underline #ec5342;
+    }
+  
+    .hero-container {
+      padding-top: 10rem;
+    }
+  
+    .hero-content,
+    .hero-about-content,
+    .program,
+    .speakers,
+    .partner {
+      width: 80%;
+    }
+  
+    .program-list {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .program-list-item {
+      width: 70%;
+    }
+  
+    .program-list-item-container {
+      grid-template-columns: 1fr;
+      grid-row-gap: 0.75rem;
+    }
+  
+    .program-list-item-container__title {
+      text-align: center;
+      font-size: 1.2rem;
+    }
+  
+    .program-list-item-container__text {
+      text-align: center;
+      font-size: 1.2rem;
+    }
+  
+    .partners-list {
+      justify-content: space-around;
+    }
+  
+    .hero-about-content-contact {
+      width: 90%;
+    }
+  
+    .summits-list {
+      display: flex;
+      justify-content: center;
+    }
+  
+    .summits-list-item {
+      margin-right: 1.5rem;
+    }
+  
+    .summits-list-item:not(:last-child) {
+      margin-bottom: 0;
+    }
+  }
+  
+  @media screen and (min-width: 991px) {
+    .nav {
+      padding-left: 8rem;
+      padding-right: 8rem;
+    }
+  
+    .top-nav {
+      padding-left: 8rem;
+      padding-right: 8rem;
+    }
+  
+    .hero-content,
+    .program,
+    .speakers,
+    .partner,
+    .footer,
+    .hero-about-content {
+      width: 80%;
+    }
+  
+    .hero-content__heading,
+    .hero-about-content__heading {
+      width: 70%;
+      letter-spacing: 10px;
+    }
+  
+    .hero-content__desc {
+      font-size: 1rem;
+    }
+  
+    .hero-about-content__heading {
+      margin: 0 auto 2.5rem;
+    }
+  
+    .speakers-list {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 1rem;
+    }
+  
+    .speakers-list-item__role {
+      font-size: 1rem;
+    }
+  
+    .footer {
+      justify-content: space-between;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .program-list-item {
+      padding: 0.5rem;
+      padding-top: 2rem;
+      margin-bottom: 1.5rem;
+      margin-right: 0.25rem;
+      border: 1px solid transparent;
+      transition: border 0.5s ease-in-out;
+    }
+  
+    .program-list-item:hover {
+      border-color: #fff;
+    }
+  
+    .program-list {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .program-list-item-container {
+      font-size: 0.9rem;
+    }
+  
+    .program-list-item-container__text {
+      text-align: center;
+      font-size: 0.8rem;
+    }
+  
+    .speakers-list-item__text {
+      font-size: 1rem;
+    }
+  }
   
