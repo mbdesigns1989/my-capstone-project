@@ -2,7 +2,7 @@
 # Conference Capstone Project
 
 > This is a project by microverse to finish the portal module,
-![Capstone Project](./images/download.jpg)
+![Capstone Project](./images/download1.jpg)
 
 
 ## Built With
