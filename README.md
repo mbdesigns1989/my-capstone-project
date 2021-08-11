@@ -2,7 +2,7 @@
 # Conference Capstone Project
 
 > This is a project by microverse to finish the portal module,
-![Capstone Project](./images/)
+![Capstone Project](./images/download.jpg)
 
 
 ## Built With
@@ -12,7 +12,7 @@
 - JavaScript
 ## Live Demo
 
-
+https://mbdesigns1989.github.io/my-capstone-project/
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
