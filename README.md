@@ -25,7 +25,7 @@ Set up and configure git on your system.
 
 ### Install
 
-git clone  https://github.com/mbdesigns1989/my-portfolio-website.git
+git clone  https://github.com/mbdesigns1989/my-capstone-project.git
 
 ## Authors
 
