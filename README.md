@@ -7,12 +7,12 @@
 
 ## Built With
 
-- Html
-- CSS
+- Html5
+- CSS3
 - JavaScript
 ## Live Demo
 
-https://mbdesigns1989.github.io/my-capstone-project/
+[Live Demo]( https://mbdesigns1989.github.io/my-capstone-project/)
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
