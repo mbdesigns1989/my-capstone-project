@@ -29,9 +29,8 @@ git clone  https://github.com/mbdesigns1989/my-capstone-project.git
 
 ## Author
 - [GitHub](https://github.com/mbdesigns1989)
-- GitHub: (https://github.com/mbdesigns1989)
-- Twitter: (https://twitter.com/mohamed66083152)
-- LinkedIn: (https://www.linkedin.com/in/mohamed-badr-27b26a212/)
+- [Twitter_X](https://twitter.com/mohamed66083152)
+- [LinkedIn](https://www.linkedin.com/in/mohamed-badr-27b26a212/)
 
 ## 🤝 Contributing
 
